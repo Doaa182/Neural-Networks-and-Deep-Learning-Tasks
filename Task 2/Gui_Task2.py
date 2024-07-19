@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings('ignore') 
-from Preprocess_Task2 import *
+from pre_temp2 import *
 from TASK2_ALGORITHM import*
 def model():
     X_class1_dataset,Y_class1_dataset,X_class2_dataset,Y_class2_dataset,X_class3_dataset,Y_class3_dataset=create_specific_dataset()
