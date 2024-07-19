@@ -8,7 +8,7 @@ from sklearn.preprocessing import LabelEncoder
 import warnings
 warnings.filterwarnings('ignore') 
 from pre_temp2 import *
-from TASK2_ALGORITHM import*
+from temp_algorithm2 import*
 def model():
     X_class1_dataset,Y_class1_dataset,X_class2_dataset,Y_class2_dataset,X_class3_dataset,Y_class3_dataset=create_specific_dataset()
 
